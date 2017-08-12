@@ -23,6 +23,7 @@ public class Connection {
 
             receive();
             send("hello");
+
         }
         //socket.close();
     }
