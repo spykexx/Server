@@ -35,6 +35,7 @@ import java.util.Scanner;
                 }
 
                 readerC.close();
+                readerP.close();
             }catch(FileNotFoundException F){
                 JOptionPane.showMessageDialog(null, "Please create files first utilzing the form.");
             }
